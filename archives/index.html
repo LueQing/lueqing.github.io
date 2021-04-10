@@ -6,7 +6,7 @@
 
 <title>归档 | 小杨</title>
 
-<link rel="shortcut icon" href="https://lueqing.github.io/favicon.ico?v=1618036916665">
+<link rel="shortcut icon" href="https://lueqing.github.io/favicon.ico?v=1618045048394">
 
 <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://lueqing.github.io/styles/main.css">
@@ -147,7 +147,7 @@
             
             <div class="nav-item">
                 
-                <a href="/" class="menu gt-a-link">
+                <a href="/" class="menu gt-a-link" target="_blank">
                     首页
                 </a>
                 
@@ -179,7 +179,7 @@
             
         </div>
         <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1618036916665"
+            <form id="gridea-search-form" style="position: relative" data-update="1618045048394"
                 action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
                 <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
@@ -275,7 +275,44 @@
 </div>
 </div>
         <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">AwA</div>
+    <div class="slogan gt-c-content-color-first"><div id=clock></div>
+<script>together = new Date(2020, 6, 27, 15, 46);
+
+function timeElapse() {
+  var current = Date();
+  var seconds = (Date.parse(current) - Date.parse(together)) / 1000;
+  var days = Math.floor(seconds / (3600 * 24));
+  seconds = seconds % (3600 * 24);
+  var hours = Math.floor(seconds / 3600);
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  seconds = seconds % 3600;
+  var minutes = Math.floor(seconds / 60);
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+  seconds = seconds % 60;
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+  let result =
+    "今天是和你认识的第 " +
+    days +
+    " 天 " +
+    hours +
+    " 小时 " +
+    minutes +
+    " 分钟 " +
+    seconds +
+    " 秒";
+  document.getElementById("clock").innerHTML = result;
+}
+
+timeElapse();
+let int = setInterval("timeElapse();", 1000);
+
+</script></div>
     <div class="social-container">
         
             

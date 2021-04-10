@@ -2,11 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lueqing.github.io</id>
     <title>小杨</title>
-    <updated>2021-04-10T06:42:01.004Z</updated>
+    <updated>2021-04-10T08:57:34.816Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lueqing.github.io"/>
     <link rel="self" href="https://lueqing.github.io/atom.xml"/>
-    <subtitle>AwA</subtitle>
+    <subtitle>&lt;div id=clock&gt;&lt;/div&gt;
+&lt;script&gt;together = new Date(2020, 6, 27, 15, 46);
+
+function timeElapse() {
+  var current = Date();
+  var seconds = (Date.parse(current) - Date.parse(together)) / 1000;
+  var days = Math.floor(seconds / (3600 * 24));
+  seconds = seconds % (3600 * 24);
+  var hours = Math.floor(seconds / 3600);
+  if (hours &lt; 10) {
+    hours = &quot;0&quot; + hours;
+  }
+  seconds = seconds % 3600;
+  var minutes = Math.floor(seconds / 60);
+  if (minutes &lt; 10) {
+    minutes = &quot;0&quot; + minutes;
+  }
+  seconds = seconds % 60;
+  if (seconds &lt; 10) {
+    seconds = &quot;0&quot; + seconds;
+  }
+  let result =
+    &quot;今天是和你认识的第 &quot; +
+    days +
+    &quot; 天 &quot; +
+    hours +
+    &quot; 小时 &quot; +
+    minutes +
+    &quot; 分钟 &quot; +
+    seconds +
+    &quot; 秒&quot;;
+  document.getElementById(&quot;clock&quot;).innerHTML = result;
+}
+
+timeElapse();
+let int = setInterval(&quot;timeElapse();&quot;, 1000);
+
+&lt;/script&gt;</subtitle>
     <logo>https://lueqing.github.io/images/avatar.png</logo>
     <icon>https://lueqing.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 小杨</rights>
