@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lueqing.github.io</id>
     <title>小杨</title>
-    <updated>2021-04-14T14:30:09.082Z</updated>
+    <updated>2021-04-24T02:12:11.636Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lueqing.github.io"/>
     <link rel="self" href="https://lueqing.github.io/atom.xml"/>
@@ -47,6 +47,26 @@ let int = setInterval(&quot;timeElapse();&quot;, 1000);
     <logo>https://lueqing.github.io/images/avatar.png</logo>
     <icon>https://lueqing.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 小杨</rights>
+    <entry>
+        <title type="html"><![CDATA[Windows 壁纸 & 主题颜色 & 浏览器 伴随时间变化]]></title>
+        <id>https://lueqing.github.io/post/windows-bi-zhi-and-zhu-ti-yan-se-and-liu-lan-qi-ban-sui-shi-jian-bian-hua/</id>
+        <link href="https://lueqing.github.io/post/windows-bi-zhi-and-zhu-ti-yan-se-and-liu-lan-qi-ban-sui-shi-jian-bian-hua/">
+        </link>
+        <updated>2021-04-24T01:54:33.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="壁纸">壁纸</h2>
+<p>壁纸的变更使用</p>
+<p><a href="https://github.com/t1m0thyj/WinDynamicDesktop/releases">Releases · t1m0thyj/WinDynamicDesktop (github.com)</a></p>
+<p>诶呀方法都很简单就不写了</p>
+<h2 id="主题颜色">主题颜色</h2>
+<p><a href="https://github.com/Armin2208/Windows-Auto-Night-Mode">Armin2208/Windows-Auto-Night-Mode: Automatically switches between the dark and light theme of Windows 10 (github.com)</a></p>
+<p>也是一样</p>
+<h2 id="浏览器">浏览器</h2>
+<p><a href="https://github.com/darkreader/darkreader">darkreader/darkreader: Dark Reader Chrome and Firefox extension (github.com)</a></p>
+<p>edge上也有插件</p>
+<p>选择随系统的配色方案</p>
+<p>针不戳</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://lueqing.github.io/post/hello-gridea/</id>
